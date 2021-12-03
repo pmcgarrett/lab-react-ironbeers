@@ -46,31 +46,31 @@ class NewBeer extends React.Component {
                 <Header />
                 <form className="newForm" onSubmit={this.handleSubmitForm}>
                     <div className="form-group">
-                        <label for="name">Name</label>
+                        <label htmlFor="name">Name</label>
                         <input type="text" id="name" name="name" onChange={this.handleChange} value={name} className="form-control" />
                     </div>
                     <div className="form-group">
-                        <label for="tagline">Tagline</label>
+                        <label htmlFor="tagline">Tagline</label>
                         <input type="text" id="tagline" name="tagline" onChange={this.handleChange} value={tagline} className="form-control" />
                     </div>
                     <div className="form-group">
-                        <label for="Textarea">Description</label>
+                        <label htmlFor="Textarea">Description</label>
                         <textarea name="description" onChange={this.handleChange} value={description} className="form-control" id="Textarea" rows="6"></textarea>
                     </div>
                     <div className="form-group">
-                        <label for="firstBrewed">First Brewed</label>
+                        <label htmlFor="firstBrewed">First Brewed</label>
                         <input type="text" id="firstBrewed" name="first_brewed" onChange={this.handleChange} value={first_brewed} className="form-control" />
                     </div>
                     <div className="form-group">
-                        <label for="brewerTips">Brewer Tips</label>
+                        <label htmlFor="brewerTips">Brewer Tips</label>
                         <input type="text" id="brewerTips" name="brewers_tips" onChange={this.handleChange} value={brewers_tips} className="form-control" />
                     </div>
                     <div className="form-group">
-                        <label for="attenuationLevel">Attenuation Level</label>
+                        <label htmlFor="attenuationLevel">Attenuation Level</label>
                         <input type="number" id="attenuationLevel" name="attenuation_level" onChange={this.handleChange} value={attenuation_level} className="form-control" />
                     </div>
                     <div className="form-group">
-                        <label for="contributedBy">Contributed by</label>
+                        <label htmlFor="contributedBy">Contributed by</label>
                         <input type="text" id="contributedBy" name="contributed_by" onChange={this.handleChange} value={contributed_by} className="form-control" />
                     </div>
                     <div>
